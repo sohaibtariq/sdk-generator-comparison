@@ -16,6 +16,10 @@
     <maven.compiler.target>1.8</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  <properties>
+  <sonar.organization>sohaibtariq</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
   <dependencies>
     <dependency>
       <groupId>io.apimatic</groupId>
