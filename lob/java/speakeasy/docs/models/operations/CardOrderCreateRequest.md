@@ -1,9 +1,0 @@
-# CardOrderCreateRequest
-
-
-## Fields
-
-| Field                                                                                            | Type                                                                                             | Required                                                                                         | Description                                                                                      |
-| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
-| `cardId`                                                                                         | *String*                                                                                         | :heavy_check_mark:                                                                               | The ID of the card to which the card orders belong.                                              |
-| `cardOrderEditable`                                                                              | [org.openapis.openapi.models.shared.CardOrderEditable](../../models/shared/CardOrderEditable.md) | :heavy_check_mark:                                                                               | N/A                                                                                              |
