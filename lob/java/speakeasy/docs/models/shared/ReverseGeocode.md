@@ -1,0 +1,10 @@
+# ReverseGeocode
+
+
+## Fields
+
+| Field                                                                                                  | Type                                                                                                   | Required                                                                                               | Description                                                                                            |
+| ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
+| `id`                                                                                                   | *String*                                                                                               | :heavy_minus_sign:                                                                                     | Unique identifier prefixed with `us_reverse_geocode_`.                                                 |
+| `addresses`                                                                                            | List<[org.openapis.openapi.models.shared.Addresses](../../models/shared/Addresses.md)>                 | :heavy_minus_sign:                                                                                     | list of addresses<br/>                                                                                 |
+| `object`                                                                                               | [org.openapis.openapi.models.shared.ReverseGeocodeObject](../../models/shared/ReverseGeocodeObject.md) | :heavy_minus_sign:                                                                                     | Value is resource type.                                                                                |

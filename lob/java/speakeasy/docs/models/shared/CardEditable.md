@@ -1,0 +1,11 @@
+# CardEditable
+
+
+## Fields
+
+| Field                                                                                          | Type                                                                                           | Required                                                                                       | Description                                                                                    |
+| ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| `description`                                                                                  | *String*                                                                                       | :heavy_minus_sign:                                                                             | Description of the card.                                                                       |
+| `size`                                                                                         | [org.openapis.openapi.models.shared.CardEditableSize](../../models/shared/CardEditableSize.md) | :heavy_minus_sign:                                                                             | The size of the card                                                                           |
+| `front`                                                                                        | *String*                                                                                       | :heavy_check_mark:                                                                             | A PDF template for the front of the card                                                       |
+| `back`                                                                                         | *String*                                                                                       | :heavy_minus_sign:                                                                             | A PDF template for the back of the card                                                        |

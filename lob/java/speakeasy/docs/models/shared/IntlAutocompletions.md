@@ -1,0 +1,9 @@
+# IntlAutocompletions
+
+
+## Fields
+
+| Field                                                                                              | Type                                                                                               | Required                                                                                           | Description                                                                                        |
+| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| `id`                                                                                               | *String*                                                                                           | :heavy_minus_sign:                                                                                 | Unique identifier prefixed with `intl_auto_`.                                                      |
+| `suggestions`                                                                                      | List<[org.openapis.openapi.models.shared.IntlSuggestions](../../models/shared/IntlSuggestions.md)> | :heavy_minus_sign:                                                                                 | An array of objects representing suggested addresses.<br/>                                         |

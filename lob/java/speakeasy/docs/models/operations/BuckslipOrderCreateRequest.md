@@ -1,0 +1,9 @@
+# BuckslipOrderCreateRequest
+
+
+## Fields
+
+| Field                                                                                                    | Type                                                                                                     | Required                                                                                                 | Description                                                                                              |
+| -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| `buckslipId`                                                                                             | *String*                                                                                                 | :heavy_check_mark:                                                                                       | The ID of the buckslip to which the buckslip orders belong.                                              |
+| `buckslipOrderEditable`                                                                                  | [org.openapis.openapi.models.shared.BuckslipOrderEditable](../../models/shared/BuckslipOrderEditable.md) | :heavy_check_mark:                                                                                       | N/A                                                                                                      |

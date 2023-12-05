@@ -1,0 +1,9 @@
+# BankAccountVerifyRequest
+
+
+## Fields
+
+| Field                                                                                            | Type                                                                                             | Required                                                                                         | Description                                                                                      |
+| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| `bankId`                                                                                         | *String*                                                                                         | :heavy_check_mark:                                                                               | id of the bank account to be verified                                                            |
+| `bankAccountVerify`                                                                              | [org.openapis.openapi.models.shared.BankAccountVerify](../../models/shared/BankAccountVerify.md) | :heavy_check_mark:                                                                               | N/A                                                                                              |

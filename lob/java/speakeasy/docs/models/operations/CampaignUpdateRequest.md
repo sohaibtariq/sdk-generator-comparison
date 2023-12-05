@@ -1,0 +1,9 @@
+# CampaignUpdateRequest
+
+
+## Fields
+
+| Field                                                                                            | Type                                                                                             | Required                                                                                         | Description                                                                                      |
+| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| `cmpId`                                                                                          | *String*                                                                                         | :heavy_check_mark:                                                                               | id of the campaign                                                                               |
+| `campaignUpdatable`                                                                              | [org.openapis.openapi.models.shared.CampaignUpdatable](../../models/shared/CampaignUpdatable.md) | :heavy_check_mark:                                                                               | N/A                                                                                              |

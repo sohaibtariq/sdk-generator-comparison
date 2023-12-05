@@ -1,0 +1,11 @@
+# Data
+
+
+## Fields
+
+| Field                                                                                     | Type                                                                                      | Required                                                                                  | Description                                                                               |
+| ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| `resourceId`                                                                              | *String*                                                                                  | :heavy_minus_sign:                                                                        | Unique identifier for each mail piece.                                                    |
+| `dateCreated`                                                                             | [OffsetDateTime](https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html) | :heavy_minus_sign:                                                                        | A timestamp in ISO 8601 format of the date the resource was created.                      |
+| `numberOfScans`                                                                           | *Double*                                                                                  | :heavy_minus_sign:                                                                        | Number of times the QR Code associated with this mail piece was scanned.                  |
+| `scans`                                                                                   | List<[org.openapis.openapi.models.shared.Scans](../../models/shared/Scans.md)>            | :heavy_minus_sign:                                                                        | Detailed scan information associated with each mail piece.                                |

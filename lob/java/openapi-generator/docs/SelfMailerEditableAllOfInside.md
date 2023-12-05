@@ -1,0 +1,13 @@
+
+
+# SelfMailerEditableAllOfInside
+
+The artwork to use as the inside of your self mailer.  Notes: - HTML merge variables should not include delimiting whitespace. - PDF, PNG, and JPGs must be sized at 6\"x18\" at 300 DPI, while supplied HTML will be rendered to the specified `size`. - Be sure to leave room for address and postage information by following the templates provided here:   - <a href=\"https://s3-us-west-2.amazonaws.com/public.lob.com/assets/templates/self_mailers/6x18_sfm_bifold_template.pdf\" target=\"_blank\">6x18 bifold template</a>   - <a href=\"https://s3-us-west-2.amazonaws.com/public.lob.com/assets/templates/self_mailers/12x9_sfm_bifold_template.pdf\" target=\"_blank\">12x9 bifold template</a>   - <a href=\"https://s3-us-west-2.amazonaws.com/public.lob.com/assets/templates/self_mailers/17_75x9_trifold_sfm_template.pdf\" target=\"_blank\">17.75x9 trifold template</a>   See [here](#section/HTML-Examples) for HTML examples. 
+
+## Properties
+
+| Name | Type | Description | Notes |
+|------------ | ------------- | ------------- | -------------|
+
+
+

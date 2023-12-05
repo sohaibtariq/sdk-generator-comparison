@@ -1,0 +1,9 @@
+# CreateTemplateVersionRequest
+
+
+## Fields
+
+| Field                                                                                                        | Type                                                                                                         | Required                                                                                                     | Description                                                                                                  |
+| ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
+| `tmplId`                                                                                                     | *String*                                                                                                     | :heavy_check_mark:                                                                                           | The ID of the template the new version will be attached to                                                   |
+| `templateVersionWritable`                                                                                    | [org.openapis.openapi.models.shared.TemplateVersionWritable](../../models/shared/TemplateVersionWritable.md) | :heavy_check_mark:                                                                                           | N/A                                                                                                          |

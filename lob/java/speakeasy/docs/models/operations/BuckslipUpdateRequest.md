@@ -1,0 +1,9 @@
+# BuckslipUpdateRequest
+
+
+## Fields
+
+| Field                                                                                            | Type                                                                                             | Required                                                                                         | Description                                                                                      |
+| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| `buckslipId`                                                                                     | *String*                                                                                         | :heavy_check_mark:                                                                               | id of the buckslip                                                                               |
+| `buckslipUpdatable`                                                                              | [org.openapis.openapi.models.shared.BuckslipUpdatable](../../models/shared/BuckslipUpdatable.md) | :heavy_check_mark:                                                                               | N/A                                                                                              |
