@@ -5,22 +5,21 @@ The following parameters are configurable for the API Client:
 
 | Parameter | Type | Description |
 |  --- | --- | --- |
-| `environment` | Environment | The API environment. <br> **Default: `Environment.PRODUCTION`** |
 | `httpClientConfig` | [`ReadonlyHttpClientConfiguration`](http-client-configuration.md) | Http Client Configuration instance. |
-| `apiKey` | `String` | secure petstore with an api key |
+| `basicAuthUserName` | `String` | The username to use with basic authentication |
+| `basicAuthPassword` | `String` | The password to use with basic authentication |
 
 The API client can be initialized as follows:
 
 ```java
-PetstoreExtendedClient client = new PetstoreExtendedClient.Builder()
+LobClient client = new LobClient.Builder()
     .httpClientConfig(configBuilder -> configBuilder
             .timeout(0))
-    .customHeaderAuthenticationCredentials("api_key")
-    .environment(Environment.PRODUCTION)
+    .basicAuthCredentials("BasicAuthUserName", "BasicAuthPassword")
     .build();
 ```
 
-## Petstore ExtendedClient Class
+## LobClient Class
 
 The gateway for the SDK. This class acts as a factory for the Controllers and also holds the configuration of the SDK.
 
@@ -28,9 +27,31 @@ The gateway for the SDK. This class acts as a factory for the Controllers and al
 
 | Name | Description | Return Type |
 |  --- | --- | --- |
-| `getPetController()` | Provides access to Pet controller. | `PetController` |
-| `getStoreController()` | Provides access to Store controller. | `StoreController` |
-| `getUserController()` | Provides access to User controller. | `UserController` |
+| `getAddressesController()` | Provides access to Addresses controller. | `AddressesController` |
+| `getBankAccountsController()` | Provides access to BankAccounts controller. | `BankAccountsController` |
+| `getBillingGroupsController()` | Provides access to BillingGroups controller. | `BillingGroupsController` |
+| `getBuckslipOrdersController()` | Provides access to BuckslipOrders controller. | `BuckslipOrdersController` |
+| `getBuckslipsController()` | Provides access to Buckslips controller. | `BuckslipsController` |
+| `getCampaignsController()` | Provides access to Campaigns controller. | `CampaignsController` |
+| `getCardOrdersController()` | Provides access to CardOrders controller. | `CardOrdersController` |
+| `getCardsController()` | Provides access to Cards controller. | `CardsController` |
+| `getChecksController()` | Provides access to Checks controller. | `ChecksController` |
+| `getCreativesController()` | Provides access to Creatives controller. | `CreativesController` |
+| `getIdentityValidationController()` | Provides access to IdentityValidation controller. | `IdentityValidationController` |
+| `getIntlAutocompletionsController()` | Provides access to IntlAutocompletions controller. | `IntlAutocompletionsController` |
+| `getIntlVerificationsController()` | Provides access to IntlVerifications controller. | `IntlVerificationsController` |
+| `getLettersController()` | Provides access to Letters controller. | `LettersController` |
+| `getPostcardsController()` | Provides access to Postcards controller. | `PostcardsController` |
+| `getQRCodesController()` | Provides access to QRCodes controller. | `QRCodesController` |
+| `getReverseGeocodeLookupsController()` | Provides access to ReverseGeocodeLookups controller. | `ReverseGeocodeLookupsController` |
+| `getSelfMailersController()` | Provides access to SelfMailers controller. | `SelfMailersController` |
+| `getTemplateVersionsController()` | Provides access to TemplateVersions controller. | `TemplateVersionsController` |
+| `getTemplatesController()` | Provides access to Templates controller. | `TemplatesController` |
+| `getUploadsController()` | Provides access to Uploads controller. | `UploadsController` |
+| `getURLShortenerController()` | Provides access to URLShortener controller. | `URLShortenerController` |
+| `getUSAutocompletionsController()` | Provides access to USAutocompletions controller. | `USAutocompletionsController` |
+| `getUSVerificationsController()` | Provides access to USVerifications controller. | `USVerificationsController` |
+| `getZipLookupsController()` | Provides access to ZipLookups controller. | `ZipLookupsController` |
 
 ### Methods
 
